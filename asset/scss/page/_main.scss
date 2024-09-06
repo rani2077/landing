@@ -451,12 +451,12 @@
     }
     .m-portfolio-list{
         .m-portfolio-item{
-            &:nth-of-type(1) .portfolio-box{background: url('../images/portfolio-spaceX.jpg') center top/cover no-repeat;}
-            &:nth-of-type(2) .portfolio-box{background: url('../images/portfolio-daelim.jpg') center top/cover no-repeat;}
-            &:nth-of-type(3) .portfolio-box{background: url('../images/portfolio-kptech.jpg') center top/cover no-repeat;}
-            &:nth-of-type(4) .portfolio-box{background: url('../images/portfolio-cgv.jpg') center top/cover no-repeat;}
-            &:nth-of-type(5) .portfolio-box{background: url('../images/portfolio-seoul.jpg') center top/cover no-repeat;}
-            &:nth-of-type(6) .portfolio-box{background: url('../images/portfolio-naver.jpg') center top/cover no-repeat;}
+            &:nth-of-type(1) .portfolio-box{background: url('../images/portfolio-earth.png') center top/cover no-repeat;}
+            &:nth-of-type(2) .portfolio-box{background: url('../images/portfolio-spaceX.jpg') center top/cover no-repeat;}
+            &:nth-of-type(3) .portfolio-box{background: url('../images/portfolio-daelim.jpg') center top/cover no-repeat;}
+            &:nth-of-type(4) .portfolio-box{background: url('../images/portfolio-kptech.jpg') center top/cover no-repeat;}
+            &:nth-of-type(5) .portfolio-box{background: url('../images/portfolio-cgv.jpg') center top/cover no-repeat;}
+            &:nth-of-type(6) .portfolio-box{background: url('../images/portfolio-seoul.jpg') center top/cover no-repeat;}
             border-radius:13px;
             position: relative;
             .portfolio-box{
@@ -486,7 +486,7 @@
                     z-index:2;
                 }
             }
-            .link-velog{
+            .link-notion{
                 position: absolute;
                 width: 50px;
                 height: 50px;
