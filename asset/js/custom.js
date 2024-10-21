@@ -104,6 +104,7 @@ $(".sc-intro .mobile-more").click(function(){
 // 포폴 리스트 선택
 
 portfolioList = [
+    "lopec",
     "earth",
     "spaceX",
     "daelim",
@@ -311,7 +312,7 @@ let startCount4 = {var: 0};
 let startCount5 = {var: 0};
 
 gsap.to(startCount0, {
-  var: 50, duration: 1, ease:"none",
+  var: 65, duration: 1, ease:"none",
   onUpdate: changeNumber0,
   scrollTrigger: {
     trigger: ".sc-data",
@@ -352,7 +353,7 @@ function changeNumber2() {
     document.querySelector('.count3').innerHTML = (startCount2.var).toFixed();
 }
 gsap.to(startCount3, {
-    var: 15, duration: 1.6, ease:"none",
+    var: 37404, duration: 1.6, ease:"none",
     onUpdate: changeNumber3,
       scrollTrigger: {
     trigger: ".sc-data",
@@ -380,7 +381,7 @@ function changeNumber4() {
     document.querySelector('.count5').innerHTML = (startCount4.var).toFixed();
 }
 gsap.to(startCount5, {
-    var: 90, duration: 2, ease:"none",
+    var: 2490, duration: 2, ease:"none",
     onUpdate: changeNumber5,
       scrollTrigger: {
     trigger: ".sc-data",
