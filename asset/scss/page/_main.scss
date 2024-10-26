@@ -371,7 +371,8 @@
                 bottom:20px;right: 0;
                 width: 50px;
                 height: 50px;
-                border-radius: 50%;
+                background: url("../images/git-ico-white.png") center center / contain no-repeat;
+                border-radius: 8px;
                 overflow: hidden;
                 img{
                     width: 100%;
@@ -482,12 +483,14 @@
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
-                    font-size: 55px;
+                    font-size: 3rem;
                     font-weight: 600;
                     z-index:2;
                 }
             }
             .link-notion{
+                border-radius:8px;
+                overflow: hidden;
                 position: absolute;
                 width: 50px;
                 height: 50px;

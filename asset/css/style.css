@@ -114,8 +114,27 @@ body.lightmode .sc-data .underline {
 body.lightmode .sc-portfolio .portfolio-item .underline {
   background: #1c1f24 !important;
 }
+body.lightmode .sc-portfolio .portfolio-item .portfolio .arrow img {
+  content: url("../images/arrow-ico-dark.png");
+}
 body.lightmode .sc-portfolio .portfolio-item .portfolio .hash span {
   border: 2px solid #1c1f24;
+}
+body.lightmode .sc-portfolio .portfolio-item .link-note {
+  background: url("../images/git-ico.png") center center/contain no-repeat;
+}
+@media (max-width: 767px) {
+  body.lightmode .sc-portfolio .m-portfolio-item .portfolio-box .sub-title {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  body.lightmode .sc-portfolio .m-portfolio-item .portfolio-box:before {
+    background: rgba(255, 255, 255, 0);
+  }
+  body.lightmode .sc-portfolio .m-portfolio-item .link-notion {
+    content: url("../images/git-ico.png");
+  }
 }
 body.lightmode .sc-advantages .underline {
   background: #1c1f24;
@@ -798,7 +817,8 @@ a {
   right: 0;
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  background: url("../images/git-ico-white.png") center center/contain no-repeat;
+  border-radius: 8px;
   overflow: hidden;
 }
 .sc-portfolio .portfolio-list .portfolio-item .link-note img {
@@ -928,11 +948,13 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 55px;
+  font-size: 3rem;
   font-weight: 600;
   z-index: 2;
 }
 .sc-portfolio .m-portfolio-list .m-portfolio-item .link-notion {
+  border-radius: 8px;
+  overflow: hidden;
   position: absolute;
   width: 50px;
   height: 50px;
