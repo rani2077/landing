@@ -312,7 +312,7 @@ let startCount4 = {var: 0};
 let startCount5 = {var: 0};
 
 gsap.to(startCount0, {
-  var: 65, duration: 1, ease:"none",
+  var: 16, duration: 1, ease:"none",
   onUpdate: changeNumber0,
   scrollTrigger: {
     trigger: ".sc-data",
